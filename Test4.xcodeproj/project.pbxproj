@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7044CB3236973A800F20DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CB2236973A800F20DFC /* AppDelegate.m */; };
+		D7044CB6236973A800F20DFC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CB5236973A800F20DFC /* SceneDelegate.m */; };
+		D7044CB9236973A800F20DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CB8236973A800F20DFC /* ViewController.m */; };
+		D7044CBC236973A800F20DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7044CBA236973A800F20DFC /* Main.storyboard */; };
+		D7044CBE236973AA00F20DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7044CBD236973AA00F20DFC /* Assets.xcassets */; };
+		D7044CC1236973AA00F20DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7044CBF236973AA00F20DFC /* LaunchScreen.storyboard */; };
+		D7044CC4236973AA00F20DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CC3236973AA00F20DFC /* main.m */; };
+		D7044CCE236973AB00F20DFC /* Test4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CCD236973AB00F20DFC /* Test4Tests.m */; };
+		D7044CD9236973AB00F20DFC /* Test4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CD8236973AB00F20DFC /* Test4UITests.m */; };
+		D7044D01236974A500F20DFC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CE8236974A500F20DFC /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D7044D02236974A500F20DFC /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CF1236974A500F20DFC /* ViewController+MASAdditions.m */; };
+		D7044D03236974A500F20DFC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CF5236974A500F20DFC /* MASCompositeConstraint.m */; };
+		D7044D04236974A500F20DFC /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CF6236974A500F20DFC /* MASConstraintMaker.m */; };
+		D7044D05236974A500F20DFC /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CF7236974A500F20DFC /* MASLayoutConstraint.m */; };
+		D7044D06236974A500F20DFC /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CF8236974A500F20DFC /* NSArray+MASAdditions.m */; };
+		D7044D07236974A500F20DFC /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CF9236974A500F20DFC /* View+MASAdditions.m */; };
+		D7044D08236974A500F20DFC /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CFC236974A500F20DFC /* MASConstraint.m */; };
+		D7044D09236974A500F20DFC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CFE236974A500F20DFC /* MASViewConstraint.m */; };
+		D7044D0A236974A500F20DFC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044CFF236974A500F20DFC /* MASViewAttribute.m */; };
+		D7044D0B236974A500F20DFC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7044D00236974A500F20DFC /* Info.plist */; };
+		D7044D412369869200F20DFC /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D0E2369869200F20DFC /* YYTextView.m */; };
+		D7044D422369869200F20DFC /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D122369869200F20DFC /* YYTextMagnifier.m */; };
+		D7044D432369869200F20DFC /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D152369869200F20DFC /* YYTextContainerView.m */; };
+		D7044D442369869200F20DFC /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D162369869200F20DFC /* YYTextEffectWindow.m */; };
+		D7044D452369869200F20DFC /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D182369869200F20DFC /* YYTextInput.m */; };
+		D7044D462369869200F20DFC /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D192369869200F20DFC /* YYTextLayout.m */; };
+		D7044D472369869200F20DFC /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D1B2369869200F20DFC /* YYTextLine.m */; };
+		D7044D482369869200F20DFC /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D1C2369869200F20DFC /* YYTextSelectionView.m */; };
+		D7044D492369869200F20DFC /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D1F2369869200F20DFC /* YYTextKeyboardManager.m */; };
+		D7044D4A2369869200F20DFC /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D212369869200F20DFC /* YYTextDebugOption.m */; };
+		D7044D4B2369869200F20DFC /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D222369869200F20DFC /* YYLabel.m */; };
+		D7044D4C2369869200F20DFC /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D262369869200F20DFC /* YYTextRunDelegate.m */; };
+		D7044D4D2369869200F20DFC /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D272369869200F20DFC /* YYTextParser.m */; };
+		D7044D4E2369869200F20DFC /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D2B2369869200F20DFC /* YYTextAttribute.m */; };
+		D7044D4F2369869200F20DFC /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D2D2369869200F20DFC /* YYTextArchiver.m */; };
+		D7044D502369869200F20DFC /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D2E2369869200F20DFC /* YYTextRubyAnnotation.m */; };
+		D7044D512369869200F20DFC /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D312369869200F20DFC /* YYTextUtilities.m */; };
+		D7044D522369869200F20DFC /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D322369869200F20DFC /* NSParagraphStyle+YYText.m */; };
+		D7044D532369869200F20DFC /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D332369869200F20DFC /* NSAttributedString+YYText.m */; };
+		D7044D542369869200F20DFC /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D362369869200F20DFC /* UIPasteboard+YYText.m */; };
+		D7044D552369869200F20DFC /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D3A2369869200F20DFC /* YYTextTransaction.m */; };
+		D7044D562369869200F20DFC /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D3B2369869200F20DFC /* UIView+YYText.m */; };
+		D7044D572369869200F20DFC /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D3E2369869200F20DFC /* YYTextAsyncLayer.m */; };
+		D7044D582369869200F20DFC /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7044D3F2369869200F20DFC /* YYTextWeakProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7044CCA236973AB00F20DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7044CA6236973A800F20DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7044CAD236973A800F20DFC;
+			remoteInfo = Test4;
+		};
+		D7044CD5236973AB00F20DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7044CA6236973A800F20DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7044CAD236973A800F20DFC;
+			remoteInfo = Test4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7044CAE236973A800F20DFC /* Test4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7044CB1236973A800F20DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7044CB2236973A800F20DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7044CB4236973A800F20DFC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D7044CB5236973A800F20DFC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D7044CB7236973A800F20DFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7044CB8236973A800F20DFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7044CBB236973A800F20DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7044CBD236973AA00F20DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7044CC0236973AA00F20DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7044CC2236973AA00F20DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7044CC3236973AA00F20DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7044CC9236973AB00F20DFC /* Test4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7044CCD236973AB00F20DFC /* Test4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4Tests.m; sourceTree = "<group>"; };
+		D7044CCF236973AB00F20DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7044CD4236973AB00F20DFC /* Test4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7044CD8236973AB00F20DFC /* Test4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4UITests.m; sourceTree = "<group>"; };
+		D7044CDA236973AB00F20DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7044CE7236974A500F20DFC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D7044CE8236974A500F20DFC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D7044CE9236974A500F20DFC /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D7044CEA236974A500F20DFC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D7044CEB236974A500F20DFC /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D7044CEC236974A500F20DFC /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D7044CED236974A500F20DFC /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D7044CEE236974A500F20DFC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D7044CEF236974A500F20DFC /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D7044CF0236974A500F20DFC /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D7044CF1236974A500F20DFC /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D7044CF2236974A500F20DFC /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D7044CF3236974A500F20DFC /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D7044CF4236974A500F20DFC /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D7044CF5236974A500F20DFC /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D7044CF6236974A500F20DFC /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D7044CF7236974A500F20DFC /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D7044CF8236974A500F20DFC /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D7044CF9236974A500F20DFC /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D7044CFA236974A500F20DFC /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D7044CFB236974A500F20DFC /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D7044CFC236974A500F20DFC /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D7044CFD236974A500F20DFC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D7044CFE236974A500F20DFC /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D7044CFF236974A500F20DFC /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		D7044D00236974A500F20DFC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7044D0D2369869200F20DFC /* YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYText.h; sourceTree = "<group>"; };
+		D7044D0E2369869200F20DFC /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		D7044D102369869200F20DFC /* YYTextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextSelectionView.h; sourceTree = "<group>"; };
+		D7044D112369869200F20DFC /* YYTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLine.h; sourceTree = "<group>"; };
+		D7044D122369869200F20DFC /* YYTextMagnifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextMagnifier.m; sourceTree = "<group>"; };
+		D7044D132369869200F20DFC /* YYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLayout.h; sourceTree = "<group>"; };
+		D7044D142369869200F20DFC /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextKeyboardManager.h; sourceTree = "<group>"; };
+		D7044D152369869200F20DFC /* YYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextContainerView.m; sourceTree = "<group>"; };
+		D7044D162369869200F20DFC /* YYTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextEffectWindow.m; sourceTree = "<group>"; };
+		D7044D172369869200F20DFC /* YYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextDebugOption.h; sourceTree = "<group>"; };
+		D7044D182369869200F20DFC /* YYTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextInput.m; sourceTree = "<group>"; };
+		D7044D192369869200F20DFC /* YYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLayout.m; sourceTree = "<group>"; };
+		D7044D1A2369869200F20DFC /* YYTextMagnifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextMagnifier.h; sourceTree = "<group>"; };
+		D7044D1B2369869200F20DFC /* YYTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLine.m; sourceTree = "<group>"; };
+		D7044D1C2369869200F20DFC /* YYTextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextSelectionView.m; sourceTree = "<group>"; };
+		D7044D1D2369869200F20DFC /* YYTextEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextEffectWindow.h; sourceTree = "<group>"; };
+		D7044D1E2369869200F20DFC /* YYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextContainerView.h; sourceTree = "<group>"; };
+		D7044D1F2369869200F20DFC /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextKeyboardManager.m; sourceTree = "<group>"; };
+		D7044D202369869200F20DFC /* YYTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextInput.h; sourceTree = "<group>"; };
+		D7044D212369869200F20DFC /* YYTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextDebugOption.m; sourceTree = "<group>"; };
+		D7044D222369869200F20DFC /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
+		D7044D232369869200F20DFC /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
+		D7044D252369869200F20DFC /* YYTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAttribute.h; sourceTree = "<group>"; };
+		D7044D262369869200F20DFC /* YYTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRunDelegate.m; sourceTree = "<group>"; };
+		D7044D272369869200F20DFC /* YYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextParser.m; sourceTree = "<group>"; };
+		D7044D282369869200F20DFC /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		D7044D292369869200F20DFC /* YYTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextArchiver.h; sourceTree = "<group>"; };
+		D7044D2A2369869200F20DFC /* YYTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRunDelegate.h; sourceTree = "<group>"; };
+		D7044D2B2369869200F20DFC /* YYTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAttribute.m; sourceTree = "<group>"; };
+		D7044D2C2369869200F20DFC /* YYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextParser.h; sourceTree = "<group>"; };
+		D7044D2D2369869200F20DFC /* YYTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextArchiver.m; sourceTree = "<group>"; };
+		D7044D2E2369869200F20DFC /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		D7044D2F2369869200F20DFC /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
+		D7044D312369869200F20DFC /* YYTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextUtilities.m; sourceTree = "<group>"; };
+		D7044D322369869200F20DFC /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		D7044D332369869200F20DFC /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		D7044D342369869200F20DFC /* UIView+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYText.h"; sourceTree = "<group>"; };
+		D7044D352369869200F20DFC /* YYTextTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTransaction.h; sourceTree = "<group>"; };
+		D7044D362369869200F20DFC /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		D7044D372369869200F20DFC /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
+		D7044D382369869200F20DFC /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		D7044D392369869200F20DFC /* YYTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextUtilities.h; sourceTree = "<group>"; };
+		D7044D3A2369869200F20DFC /* YYTextTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTransaction.m; sourceTree = "<group>"; };
+		D7044D3B2369869200F20DFC /* UIView+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYText.m"; sourceTree = "<group>"; };
+		D7044D3C2369869200F20DFC /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		D7044D3D2369869200F20DFC /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		D7044D3E2369869200F20DFC /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		D7044D3F2369869200F20DFC /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
+		D7044D402369869200F20DFC /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7044CAB236973A800F20DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7044CC6236973AB00F20DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7044CD1236973AB00F20DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7044CA5236973A800F20DFC = {
+			isa = PBXGroup;
+			children = (
+				D7044D0C2369869200F20DFC /* YYText */,
+				D7044CE6236974A500F20DFC /* Masonry */,
+				D7044CB0236973A800F20DFC /* Test4 */,
+				D7044CCC236973AB00F20DFC /* Test4Tests */,
+				D7044CD7236973AB00F20DFC /* Test4UITests */,
+				D7044CAF236973A800F20DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7044CAF236973A800F20DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7044CAE236973A800F20DFC /* Test4.app */,
+				D7044CC9236973AB00F20DFC /* Test4Tests.xctest */,
+				D7044CD4236973AB00F20DFC /* Test4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7044CB0236973A800F20DFC /* Test4 */ = {
+			isa = PBXGroup;
+			children = (
+				D7044CB1236973A800F20DFC /* AppDelegate.h */,
+				D7044CB2236973A800F20DFC /* AppDelegate.m */,
+				D7044CB4236973A800F20DFC /* SceneDelegate.h */,
+				D7044CB5236973A800F20DFC /* SceneDelegate.m */,
+				D7044CB7236973A800F20DFC /* ViewController.h */,
+				D7044CB8236973A800F20DFC /* ViewController.m */,
+				D7044CBA236973A800F20DFC /* Main.storyboard */,
+				D7044CBD236973AA00F20DFC /* Assets.xcassets */,
+				D7044CBF236973AA00F20DFC /* LaunchScreen.storyboard */,
+				D7044CC2236973AA00F20DFC /* Info.plist */,
+				D7044CC3236973AA00F20DFC /* main.m */,
+			);
+			path = Test4;
+			sourceTree = "<group>";
+		};
+		D7044CCC236973AB00F20DFC /* Test4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7044CCD236973AB00F20DFC /* Test4Tests.m */,
+				D7044CCF236973AB00F20DFC /* Info.plist */,
+			);
+			path = Test4Tests;
+			sourceTree = "<group>";
+		};
+		D7044CD7236973AB00F20DFC /* Test4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7044CD8236973AB00F20DFC /* Test4UITests.m */,
+				D7044CDA236973AB00F20DFC /* Info.plist */,
+			);
+			path = Test4UITests;
+			sourceTree = "<group>";
+		};
+		D7044CE6236974A500F20DFC /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D7044CE7236974A500F20DFC /* MASCompositeConstraint.h */,
+				D7044CE8236974A500F20DFC /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D7044CE9236974A500F20DFC /* MASConstraint+Private.h */,
+				D7044CEA236974A500F20DFC /* MASLayoutConstraint.h */,
+				D7044CEB236974A500F20DFC /* NSArray+MASShorthandAdditions.h */,
+				D7044CEC236974A500F20DFC /* MASConstraintMaker.h */,
+				D7044CED236974A500F20DFC /* View+MASAdditions.h */,
+				D7044CEE236974A500F20DFC /* NSArray+MASAdditions.h */,
+				D7044CEF236974A500F20DFC /* MASUtilities.h */,
+				D7044CF0236974A500F20DFC /* MASViewAttribute.h */,
+				D7044CF1236974A500F20DFC /* ViewController+MASAdditions.m */,
+				D7044CF2236974A500F20DFC /* MASViewConstraint.h */,
+				D7044CF3236974A500F20DFC /* MASConstraint.h */,
+				D7044CF4236974A500F20DFC /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D7044CF5236974A500F20DFC /* MASCompositeConstraint.m */,
+				D7044CF6236974A500F20DFC /* MASConstraintMaker.m */,
+				D7044CF7236974A500F20DFC /* MASLayoutConstraint.m */,
+				D7044CF8236974A500F20DFC /* NSArray+MASAdditions.m */,
+				D7044CF9236974A500F20DFC /* View+MASAdditions.m */,
+				D7044CFA236974A500F20DFC /* View+MASShorthandAdditions.h */,
+				D7044CFB236974A500F20DFC /* Masonry.h */,
+				D7044CFC236974A500F20DFC /* MASConstraint.m */,
+				D7044CFD236974A500F20DFC /* ViewController+MASAdditions.h */,
+				D7044CFE236974A500F20DFC /* MASViewConstraint.m */,
+				D7044CFF236974A500F20DFC /* MASViewAttribute.m */,
+				D7044D00236974A500F20DFC /* Info.plist */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		D7044D0C2369869200F20DFC /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				D7044D0D2369869200F20DFC /* YYText.h */,
+				D7044D0E2369869200F20DFC /* YYTextView.m */,
+				D7044D0F2369869200F20DFC /* Component */,
+				D7044D222369869200F20DFC /* YYLabel.m */,
+				D7044D232369869200F20DFC /* YYTextView.h */,
+				D7044D242369869200F20DFC /* String */,
+				D7044D2F2369869200F20DFC /* YYLabel.h */,
+				D7044D302369869200F20DFC /* Utility */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		D7044D0F2369869200F20DFC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D7044D102369869200F20DFC /* YYTextSelectionView.h */,
+				D7044D112369869200F20DFC /* YYTextLine.h */,
+				D7044D122369869200F20DFC /* YYTextMagnifier.m */,
+				D7044D132369869200F20DFC /* YYTextLayout.h */,
+				D7044D142369869200F20DFC /* YYTextKeyboardManager.h */,
+				D7044D152369869200F20DFC /* YYTextContainerView.m */,
+				D7044D162369869200F20DFC /* YYTextEffectWindow.m */,
+				D7044D172369869200F20DFC /* YYTextDebugOption.h */,
+				D7044D182369869200F20DFC /* YYTextInput.m */,
+				D7044D192369869200F20DFC /* YYTextLayout.m */,
+				D7044D1A2369869200F20DFC /* YYTextMagnifier.h */,
+				D7044D1B2369869200F20DFC /* YYTextLine.m */,
+				D7044D1C2369869200F20DFC /* YYTextSelectionView.m */,
+				D7044D1D2369869200F20DFC /* YYTextEffectWindow.h */,
+				D7044D1E2369869200F20DFC /* YYTextContainerView.h */,
+				D7044D1F2369869200F20DFC /* YYTextKeyboardManager.m */,
+				D7044D202369869200F20DFC /* YYTextInput.h */,
+				D7044D212369869200F20DFC /* YYTextDebugOption.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		D7044D242369869200F20DFC /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D7044D252369869200F20DFC /* YYTextAttribute.h */,
+				D7044D262369869200F20DFC /* YYTextRunDelegate.m */,
+				D7044D272369869200F20DFC /* YYTextParser.m */,
+				D7044D282369869200F20DFC /* YYTextRubyAnnotation.h */,
+				D7044D292369869200F20DFC /* YYTextArchiver.h */,
+				D7044D2A2369869200F20DFC /* YYTextRunDelegate.h */,
+				D7044D2B2369869200F20DFC /* YYTextAttribute.m */,
+				D7044D2C2369869200F20DFC /* YYTextParser.h */,
+				D7044D2D2369869200F20DFC /* YYTextArchiver.m */,
+				D7044D2E2369869200F20DFC /* YYTextRubyAnnotation.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		D7044D302369869200F20DFC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D7044D312369869200F20DFC /* YYTextUtilities.m */,
+				D7044D322369869200F20DFC /* NSParagraphStyle+YYText.m */,
+				D7044D332369869200F20DFC /* NSAttributedString+YYText.m */,
+				D7044D342369869200F20DFC /* UIView+YYText.h */,
+				D7044D352369869200F20DFC /* YYTextTransaction.h */,
+				D7044D362369869200F20DFC /* UIPasteboard+YYText.m */,
+				D7044D372369869200F20DFC /* YYTextWeakProxy.h */,
+				D7044D382369869200F20DFC /* YYTextAsyncLayer.h */,
+				D7044D392369869200F20DFC /* YYTextUtilities.h */,
+				D7044D3A2369869200F20DFC /* YYTextTransaction.m */,
+				D7044D3B2369869200F20DFC /* UIView+YYText.m */,
+				D7044D3C2369869200F20DFC /* NSAttributedString+YYText.h */,
+				D7044D3D2369869200F20DFC /* NSParagraphStyle+YYText.h */,
+				D7044D3E2369869200F20DFC /* YYTextAsyncLayer.m */,
+				D7044D3F2369869200F20DFC /* YYTextWeakProxy.m */,
+				D7044D402369869200F20DFC /* UIPasteboard+YYText.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7044CAD236973A800F20DFC /* Test4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7044CDD236973AB00F20DFC /* Build configuration list for PBXNativeTarget "Test4" */;
+			buildPhases = (
+				D7044CAA236973A800F20DFC /* Sources */,
+				D7044CAB236973A800F20DFC /* Frameworks */,
+				D7044CAC236973A800F20DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test4;
+			productName = Test4;
+			productReference = D7044CAE236973A800F20DFC /* Test4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7044CC8236973AB00F20DFC /* Test4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7044CE0236973AB00F20DFC /* Build configuration list for PBXNativeTarget "Test4Tests" */;
+			buildPhases = (
+				D7044CC5236973AB00F20DFC /* Sources */,
+				D7044CC6236973AB00F20DFC /* Frameworks */,
+				D7044CC7236973AB00F20DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7044CCB236973AB00F20DFC /* PBXTargetDependency */,
+			);
+			name = Test4Tests;
+			productName = Test4Tests;
+			productReference = D7044CC9236973AB00F20DFC /* Test4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7044CD3236973AB00F20DFC /* Test4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7044CE3236973AB00F20DFC /* Build configuration list for PBXNativeTarget "Test4UITests" */;
+			buildPhases = (
+				D7044CD0236973AB00F20DFC /* Sources */,
+				D7044CD1236973AB00F20DFC /* Frameworks */,
+				D7044CD2236973AB00F20DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7044CD6236973AB00F20DFC /* PBXTargetDependency */,
+			);
+			name = Test4UITests;
+			productName = Test4UITests;
+			productReference = D7044CD4236973AB00F20DFC /* Test4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7044CA6236973A800F20DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Jessen hsu";
+				TargetAttributes = {
+					D7044CAD236973A800F20DFC = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					D7044CC8236973AB00F20DFC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = D7044CAD236973A800F20DFC;
+					};
+					D7044CD3236973AB00F20DFC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = D7044CAD236973A800F20DFC;
+					};
+				};
+			};
+			buildConfigurationList = D7044CA9236973A800F20DFC /* Build configuration list for PBXProject "Test4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7044CA5236973A800F20DFC;
+			productRefGroup = D7044CAF236973A800F20DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7044CAD236973A800F20DFC /* Test4 */,
+				D7044CC8236973AB00F20DFC /* Test4Tests */,
+				D7044CD3236973AB00F20DFC /* Test4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7044CAC236973A800F20DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7044D0B236974A500F20DFC /* Info.plist in Resources */,
+				D7044CC1236973AA00F20DFC /* LaunchScreen.storyboard in Resources */,
+				D7044CBE236973AA00F20DFC /* Assets.xcassets in Resources */,
+				D7044CBC236973A800F20DFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7044CC7236973AB00F20DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7044CD2236973AB00F20DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7044CAA236973A800F20DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7044D482369869200F20DFC /* YYTextSelectionView.m in Sources */,
+				D7044D09236974A500F20DFC /* MASViewConstraint.m in Sources */,
+				D7044D0A236974A500F20DFC /* MASViewAttribute.m in Sources */,
+				D7044CB9236973A800F20DFC /* ViewController.m in Sources */,
+				D7044CB3236973A800F20DFC /* AppDelegate.m in Sources */,
+				D7044D4A2369869200F20DFC /* YYTextDebugOption.m in Sources */,
+				D7044D06236974A500F20DFC /* NSArray+MASAdditions.m in Sources */,
+				D7044D422369869200F20DFC /* YYTextMagnifier.m in Sources */,
+				D7044D4B2369869200F20DFC /* YYLabel.m in Sources */,
+				D7044D02236974A500F20DFC /* ViewController+MASAdditions.m in Sources */,
+				D7044D492369869200F20DFC /* YYTextKeyboardManager.m in Sources */,
+				D7044D582369869200F20DFC /* YYTextWeakProxy.m in Sources */,
+				D7044D472369869200F20DFC /* YYTextLine.m in Sources */,
+				D7044D03236974A500F20DFC /* MASCompositeConstraint.m in Sources */,
+				D7044D562369869200F20DFC /* UIView+YYText.m in Sources */,
+				D7044D532369869200F20DFC /* NSAttributedString+YYText.m in Sources */,
+				D7044D412369869200F20DFC /* YYTextView.m in Sources */,
+				D7044D452369869200F20DFC /* YYTextInput.m in Sources */,
+				D7044D4E2369869200F20DFC /* YYTextAttribute.m in Sources */,
+				D7044D4C2369869200F20DFC /* YYTextRunDelegate.m in Sources */,
+				D7044D4F2369869200F20DFC /* YYTextArchiver.m in Sources */,
+				D7044D572369869200F20DFC /* YYTextAsyncLayer.m in Sources */,
+				D7044CC4236973AA00F20DFC /* main.m in Sources */,
+				D7044D502369869200F20DFC /* YYTextRubyAnnotation.m in Sources */,
+				D7044D542369869200F20DFC /* UIPasteboard+YYText.m in Sources */,
+				D7044D432369869200F20DFC /* YYTextContainerView.m in Sources */,
+				D7044D442369869200F20DFC /* YYTextEffectWindow.m in Sources */,
+				D7044D4D2369869200F20DFC /* YYTextParser.m in Sources */,
+				D7044D07236974A500F20DFC /* View+MASAdditions.m in Sources */,
+				D7044D462369869200F20DFC /* YYTextLayout.m in Sources */,
+				D7044D512369869200F20DFC /* YYTextUtilities.m in Sources */,
+				D7044D04236974A500F20DFC /* MASConstraintMaker.m in Sources */,
+				D7044D552369869200F20DFC /* YYTextTransaction.m in Sources */,
+				D7044D08236974A500F20DFC /* MASConstraint.m in Sources */,
+				D7044D01236974A500F20DFC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D7044D05236974A500F20DFC /* MASLayoutConstraint.m in Sources */,
+				D7044D522369869200F20DFC /* NSParagraphStyle+YYText.m in Sources */,
+				D7044CB6236973A800F20DFC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7044CC5236973AB00F20DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7044CCE236973AB00F20DFC /* Test4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7044CD0236973AB00F20DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7044CD9236973AB00F20DFC /* Test4UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7044CCB236973AB00F20DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7044CAD236973A800F20DFC /* Test4 */;
+			targetProxy = D7044CCA236973AB00F20DFC /* PBXContainerItemProxy */;
+		};
+		D7044CD6236973AB00F20DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7044CAD236973A800F20DFC /* Test4 */;
+			targetProxy = D7044CD5236973AB00F20DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7044CBA236973A800F20DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7044CBB236973A800F20DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7044CBF236973AA00F20DFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7044CC0236973AA00F20DFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7044CDB236973AB00F20DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7044CDC236973AB00F20DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7044CDE236973AB00F20DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4NJK3779A;
+				INFOPLIST_FILE = Test4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Test4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7044CDF236973AB00F20DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4NJK3779A;
+				INFOPLIST_FILE = Test4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Test4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7044CE1236973AB00F20DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4NJK3779A;
+				INFOPLIST_FILE = Test4Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Test4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test4.app/Test4";
+			};
+			name = Debug;
+		};
+		D7044CE2236973AB00F20DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4NJK3779A;
+				INFOPLIST_FILE = Test4Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Test4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test4.app/Test4";
+			};
+			name = Release;
+		};
+		D7044CE4236973AB00F20DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4NJK3779A;
+				INFOPLIST_FILE = Test4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Test4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Test4;
+			};
+			name = Debug;
+		};
+		D7044CE5236973AB00F20DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4NJK3779A;
+				INFOPLIST_FILE = Test4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Test4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Test4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7044CA9236973A800F20DFC /* Build configuration list for PBXProject "Test4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7044CDB236973AB00F20DFC /* Debug */,
+				D7044CDC236973AB00F20DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7044CDD236973AB00F20DFC /* Build configuration list for PBXNativeTarget "Test4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7044CDE236973AB00F20DFC /* Debug */,
+				D7044CDF236973AB00F20DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7044CE0236973AB00F20DFC /* Build configuration list for PBXNativeTarget "Test4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7044CE1236973AB00F20DFC /* Debug */,
+				D7044CE2236973AB00F20DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7044CE3236973AB00F20DFC /* Build configuration list for PBXNativeTarget "Test4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7044CE4236973AB00F20DFC /* Debug */,
+				D7044CE5236973AB00F20DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7044CA6236973A800F20DFC /* Project object */;
+}
